@@ -104,10 +104,16 @@ double number9[25] = {0.0, 1.0, 1.0, 1.0, 0.0,
     0.0, 1.0, 0.0, 0.0, 0.0,
     0.0, 1.0, 1.0, 1.0, 0.0};
 
+double off[25] = {0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0, 
+    0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0,
+    0.0, 0.0, 0.0, 0.0, 0.0};
 
 //matriz com os vetores definidos
 double* numbers[10] = {number0, number1, number2, number3, number4, number5, number6, number7, number8, number9};
 
 
+//
 uint32_t matrix_rgb(double b, double r, double g);
 void numero_pio(double *numero, uint32_t valor_led, PIO pio, uint sm, double r, double g, double b);
